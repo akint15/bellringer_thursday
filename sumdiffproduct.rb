@@ -1,9 +1,10 @@
-def  method_name(car, truck)
-	
-	puts "Enter 2 numbers"
+class Mathematics
 
-	car = gets.split.to_i
-	truck = gets.split.to_i
+def  initialize (car, truck)	
+	
+
+	@car = car.to_i
+	@truck = truck.to_i
 
 	puts car+truck
 	puts car-truck
@@ -11,5 +12,10 @@ def  method_name(car, truck)
 	
 end
 
+ 
 
-method_name(1,3)
+end
+
+math = Mathematics.new 9, 2
+
+
